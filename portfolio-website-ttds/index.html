@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.jpg" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"
+/>
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title>Mini portfolio website - Bedimcode</title>
+    </head>
+    <body>
+        <!--=============== HEADER PROFILE ===============-->
+        <header class="profile container">
+
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__pf">
+                            <img src="assets/img/pf.png" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Thin Thandar Soe</h2>
+                    <h3 class="profile__profession">Junior Web Developer</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/lygia_dar?igsh=cnNranF5NDFuNnBi" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/share/15vCuUHrTJ/?mibextid=qi2Omg"  target="_blank" class="profile__social-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+
+                        <a href="https://github.com/ttds25" target="_blank" class="profile__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">18</h3>
+                        <p class="profile__info-description"> & <br> eager to learn </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">1+ year of</h3>
+                        <p class="profile__info-description">coding <br> experience</p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">Completed 3+</h3>
+                        <p class="profile__info-description">web projects <br> through hands-on learning</p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <a download="" href="assets/pdf/thinthandarsoe-cv.pdf" class="button"> Download CV <i class="ri-download-line"></i></a>
+
+                    <div class="profile__buttons-small">
+                       <a href=" https://api.whatsapp.com/send?phone=+95 9760232941&text=Hello, more information!
+                        " target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                       </a> 
+                       
+                       <a href="https://t.me/tdsT_96" target="_blank" class="button button__small button__gray">
+                        <i class="ri-telegram-2-line"></i>
+                       </a>
+                      
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects" >Projects</button>
+
+                    <button class="filters__button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <img src="assets/img/project1.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Benefits</span>
+                                    <h3 class="projects__title">Of Meditation</h3>
+                                    <a href="https://github.com/ttds25/benefits-of-meditation-" class="projects__buttons button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project2.jpeg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Car</span>
+                                    <h3 class="projects__title">Animation</h3>
+                                    <a href="https://github.com/ttds25/car-animation" class="projects__buttons button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project3.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Science</span>
+                                    <h3 class="projects__title">Calculator</h3>
+                                    <a href="https://github.com/ttds25/calculator" class="projects__buttons button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project4.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Temple</span>
+                                    <h3 class="projects__title">Website</h3>
+                                    <a href="https://github.com/ttds25/temple_website" class="projects__buttons button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project5.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Pizza</span>
+                                    <h3 class="projects__title">Website</h3>
+                                    <a href="https://github.com/ttds25/pizza-website" class="projects__buttons button button button__small">
+                                        <i class="ri-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                    
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid filters__active" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                Frontend developer
+                            </h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+    
+                                     <div>
+                                         <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                     </div>
+                                   </div>
+    
+                                   <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+    
+                                 <div>
+                                     <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                 </div>
+                               </div>
+    
+                                </div>
+    
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+    
+                                     <div>
+                                         <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                     </div>
+                                    </div>
+    
+                                     <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+            
+                                     <div>
+                                         <h3 class="skills__name">Javascript</h3>
+                                        <span class="skills__level">Early intermediate</span>
+                                     </div>
+                                   </div>
+                                  
+                                </div>
+    
+                                
+                            </div>
+                        </div>
+
+                        <div class="skills_area">
+                            <h3 class="skills__title">
+                                Backend developer
+                            </h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+    
+                                     <div>
+                                         <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__level">Beginner</span>
+                                     </div>
+                                   </div>
+    
+                                </div>
+    
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+    
+                                     <div>
+                                         <h3 class="skills__name">My SQL</h3>
+                                        <span class="skills__level">Beginner</span>
+                                     </div>
+    
+                                   </div>
+                                </div>
+    
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                   
+                       
+                    
+                    
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+           <span class="footer__copy">
+            © 2024 thinthandarsoe. All rights reserved.
+            <p>Inspired by <a href="https://www.youtube.com/@Bedimcode" target="_blank">Bedimcode</a></p>
+           </span> 
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
